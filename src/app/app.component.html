@@ -1,0 +1,20 @@
+<!-- app.component.html -->
+
+<div class="navbar">
+    <a routerLink="/">Home</a>
+    <!-- <div class="dropdown" (mouseenter)="showProductDropdown = true" (mouseleave)="showProductDropdown = false">
+      <a class="dropbtn" routerLink="#">Products</a>
+      <div class="dropdown-content" *ngIf="showProductDropdown" (mouseenter)="showProductDropdown = true" (mouseleave)="showProductDropdown = false">
+        <a (click)="showProduct('Television')">Television</a>
+        <a (click)="showProduct('Laptop')">Laptop</a>
+        <a (click)="showProduct('Mobile Phone')">Mobile Phone</a>
+      </div>
+    </div> -->
+    <a class="dropbtn" routerLink="/product">Products</a>
+    <a routerLink="/contact-us">Contact Us</a>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
+  
+  

@@ -1,0 +1,22 @@
+<!-- television.component.html -->
+
+<div>
+    <h2>Television</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Launch Year</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of productData">
+          <td>{{ item.model }}</td>
+          <td>{{ item.launchYear }}</td>
+          <td>{{ item.price }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

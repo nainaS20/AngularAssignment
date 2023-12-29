@@ -1,0 +1,25 @@
+// contact-us.component.scss
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  
+    h2 {
+      color: #333;
+    }
+  
+    p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #555;
+  
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
